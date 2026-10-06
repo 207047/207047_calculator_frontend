@@ -1,0 +1,59 @@
+:root {
+  --bg: #e8e6e1;
+  --fg: #1b1b1b;
+  --dim: #7a776f;
+  --line: #d2cfc8;
+  --panel: #f4f3ef;
+  --key: #eceae4;
+  --key-fn: #e2dfd7;
+  --key-op: #2f2f2d;
+  --key-op-fg: #f4f3ef;
+  --eq: #c9a227;
+  --eq-fg: #1b1b1b;
+  --ac: #8f4336;
+  --lcd: #171716;
+  --lcd-fg: #eceae4;
+  --danger: #8f4336;
+}
+
+[data-theme='night'] {
+  --bg: #121211;
+  --fg: #eceae4;
+  --dim: #8d8a82;
+  --line: #2a2a28;
+  --panel: #1a1a18;
+  --key: #242422;
+  --key-fn: #2c2c29;
+  --key-op: #eceae4;
+  --key-op-fg: #171716;
+  --eq: #d4b44a;
+  --eq-fg: #171716;
+  --ac: #c36b5a;
+  --lcd: #0c0c0b;
+  --lcd-fg: #eceae4;
+  --danger: #c36b5a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  color: var(--fg);
+  background: var(--bg);
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
